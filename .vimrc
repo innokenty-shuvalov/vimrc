@@ -29,3 +29,5 @@ set pastetoggle=<F2>
 set showmode
 set wildmenu
 set wildmode=longest,list
+
+au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim

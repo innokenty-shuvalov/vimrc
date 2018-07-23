@@ -4,6 +4,7 @@ set smartindent
 set autoindent
 set tabstop=4
 set shiftwidth=4
+set expandtab
 " Adding a hotkey to toggle autoclose
 let g:autoclose_on = 0
 nmap <C-a> <Plug>ToggleAutoCloseMappings
